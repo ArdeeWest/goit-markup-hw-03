@@ -24,20 +24,25 @@
     <!-- Шапка -->
     <header>
       <!-- логотип сайта -->
-      <nav>
-        <a class="logo" lang="en" href="./index.html">Web<span class="logo-part">Studio</span></a>
+      <div class="container nav">
+        <nav class="nav-box">
+          <a class="logo" lang="en" href="./index.html">Web<span class="logo-part">Studio</span></a>
 
-        <ul class="menu list">
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a class="link current" href="#">Портфолио</a></li>
-          <li><a class="link" href="#">Контакты</a></li>
+          <!-- Меню -->
+          <ul class="menu list">
+            <li class="item"><a class="link" href="./">Студия</a></li>
+            <li class="item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Контакты в шапке -->
+        <ul class="contacts list">
+          <li class="item">
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item"><a class="link" href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <!-- Контакты в шапке -->
-      <ul class="contacts list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380991111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <!-- Конец шапки -->
 
@@ -155,12 +160,14 @@
 
     <!-- Подвал -->
     <footer class="footer">
-      <a class="logo" lang="en" href="/">Web<span class="logo-part">Studio</span></a>
-      <address class="footer-contacts">
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a class="link" href="mailto:info@example.com">info@example.com</a>
-        <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-      </address>
+      <div class="container">
+        <a class="logo" lang="en" href="/">Web<span class="logo-part">Studio</span></a>
+        <address class="footer-contacts">
+          г. Киев, пр-т Леси Украинки, 26 <br />
+          <a class="link mail" href="mailto:info@example.com">info@example.com</a> <br />
+          <a class="link phone" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
