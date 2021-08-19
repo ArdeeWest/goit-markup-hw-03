@@ -24,24 +24,25 @@
     <!-- Шапка -->
     <header>
       <!-- Кликабельный логотип-->
-      <div class="container">
-      <nav>
-        <a class="logo" lang="en" href="./index.html">Web<span class="logo-part">Studio</span></a>
+      <div class="container nav">
+        <nav class="nav-box">
+          <a class="logo" lang="en" href="./index.html">Web<span class="logo-part">Studio</span></a>
 
-        <!-- Меню -->
-        <ul class="menu list">
-          <li><a class="link current" href="./">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <!-- Меню -->
+          <ul class="menu list">
+            <li class="item"><a class="link current" href="./">Студия</a></li>
+            <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Контакты в шапке -->
+        <ul class="contacts list">
+          <li class="item">
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item"><a class="link" href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <!-- Контакты в шапке -->
-      <ul class="contacts list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380991111111">+38 096 111 11 11</a></li>
-      </ul>
       </div>
-      </header>
     </header>
     <!-- Конец шапки -->
 
@@ -49,7 +50,7 @@
     <main>
       <!-- Первая секция, так называемый герой. Эффективные решения -->
 
-      <section class="hero">
+      <section class="section hero">
         <h1 class="hero-title">Эффективные решения для&nbsp;вашего бизнеса</h1>
         <form>
           <button class="service button" type="button">Заказать услугу</button>
@@ -59,125 +60,145 @@
       <!-- Вторая секция. Виды услуг-->
       <section class="section features">
         <div class="container">
-        <ul class="list">
-          <li>
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-          </li>
+          <ul class="list features-list">
+            <li class="item">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="features-title">Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
+            <li class="item">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="features-title">Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
+            <li class="item">
+              <h3 class="features-title">Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="features-title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-          </li>
-        </ul>
+            <li class="item">
+              <h3 class="features-title">Современные технологии</h3>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+          </ul>
 
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/keyboard.jpg"
-              alt="крупным планом руки, печатающие на клавиатуре"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/notebook.jpg"
-              alt="смартфон в руках человека и ноутбук с изображением телефонов на мониторе"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/tablet.jpg"
-              alt="планшет с цветной палитрой в руках человека"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list work-list">
+            <li class="item">
+              <img
+                src="./images/keyboard.jpg"
+                alt="крупным планом руки, печатающие на клавиатуре"
+                width="370"
+                height="294"
+              />
+            </li>
+
+            <li class="item">
+              <img
+                src="./images/notebook.jpg"
+                alt="смартфон в руках человека и ноутбук с изображением телефонов на мониторе"
+                width="370"
+                height="294"
+              />
+            </li>
+
+            <li class="item">
+              <img
+                src="./images/tablet.jpg"
+                alt="планшет с цветной палитрой в руках человека"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
         </div>
       </section>
 
       <!-- Третья секция. Команда -->
       <section class="section team">
         <div class="container">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/ihor.jpg"
-              alt="Фотография продакт-дизайнера Игоря Демяненка"
-              width="270"
-              height="260"
-            />
-            <h3 class="names">Игорь Демьяненко</h3>
-            <p class="profession" lang="en">Product Designer</p>
-          </li>
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list team-list">
+            <li class="item">
+              <div class="card">
+                <img
+                  src="./images/ihor.jpg"
+                  alt="Фотография продакт-дизайнера Игоря Демяненка"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-content">
+                  <h3 class="names">Игорь Демьяненко</h3>
+                  <p class="profession" lang="en">Product Designer</p>
+                </div>
+              </div>
+            </li>
 
-          <li>
-            <img
-              src="./images/olga.jpg"
-              alt="Фотография фронт-энд-девелопера Ольги Репеной"
-              width="270"
-              height="260"
-            />
-            <h3 class="names">Ольга Репина</h3>
-            <p class="profession" lang="en">Frontend Developer</p>
-          </li>
+            <li class="item">
+              <div class="card">
+                <img
+                  src="./images/olga.jpg"
+                  alt="Фотография фронт-энд-девелопера Ольги Репеной"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-content">
+                  <h3 class="names">Ольга Репина</h3>
+                  <p class="profession" lang="en">Frontend Developer</p>
+                </div>
+              </div>
+            </li>
 
-          <li>
-            <img
-              src="./images/nikolay.jpg"
-              alt="Фотография маркетолога Николая Тарасова"
-              width="270"
-              height="260"
-            />
-            <h3 class="names">Николай Тарасов</h3>
-            <p class="profession" lang="en">Marketing</p>
-          </li>
+            <li class="item">
+              <div class="card">
+                <img
+                  src="./images/nikolay.jpg"
+                  alt="Фотография маркетолога Николая Тарасова"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-content">
+                  <h3 class="names">Николай Тарасов</h3>
+                  <p class="profession" lang="en">Marketing</p>
+                </div>
+              </div>
+            </li>
 
-          <li>
-            <img
-              src="./images/michael.jpg"
-              alt="Фотография юи-дизайнера Михаила Ермакова"
-              width="270"
-              height="260"
-            />
-            <h3 class="names">Михаил Ермаков</h3>
-            <p class="profession" lang="en">UI Designer</p>
-          </li>
-        </ul>
+            <li class="item">
+              <div class="card">
+                <img
+                  src="./images/michael.jpg"
+                  alt="Фотография юи-дизайнера Михаила Ермакова"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-content">
+                  <h3 class="names">Михаил Ермаков</h3>
+                  <p class="profession" lang="en">UI Designer</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
+    </main>
 
-      <!-- Подвал -->
-      <footer class="footer">
-        <div class="container">
+    <!-- Подвал -->
+    <footer class="footer">
+      <div class="container">
         <a class="logo" lang="en" href="/">Web<span class="logo-part">Studio</span></a>
         <address class="footer-contacts">
           г. Киев, пр-т Леси Украинки, 26 <br />
           <a class="link mail" href="mailto:info@example.com">info@example.com</a> <br />
           <a class="link phone" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
-        </div>
-      </footer>
-    </main>
+      </div>
+    </footer>
   </body>
 </html>
