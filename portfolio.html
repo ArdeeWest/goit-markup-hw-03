@@ -48,113 +48,164 @@
 
     <!-- Уникальный контент страницы -->
     <main>
-      <h1 hidden>Проекты веб-студии</h1>
-      <section class="portfolio">
-        <!-- Фильтр проектов -->
-        <div>
-          <button class="filter button" type="button">Все</button>
-          <button class="filter button" type="button">Веб-сайты</button>
-          <button class="filter button" type="button">Приложения</button>
-          <button class="filter button" type="button">Дизайн</button>
-          <button class="filter button" type="button">Маркетинг</button>
-        </div>
+      <h1 class="visually-hidden">Проекты веб-студии</h1>
+      <section class="section portfolio">
+        <div class="container">
+          <!-- Фильтр проектов -->
+          <div class="filter-box">
+            <button class="filter button" type="button">Все</button>
+            <button class="filter button" type="button">Веб-сайты</button>
+            <button class="filter button" type="button">Приложения</button>
+            <button class="filter button" type="button">Дизайн</button>
+            <button class="filter button" type="button">Маркетинг</button>
+          </div>
 
-        <!-- Проекты в портфолио -->
-        <ul class="projects list">
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/techno.jpg"
-                alt="Веб-сайт для компании Технокряк"
-                width="370"
-                height="294"
-              />
-              <h2 class="names">Технокряк</h2>
-              <p class="description">Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/basketball.jpg"
-                alt="Постер для баскетбольного клуба New Orlean vs Golden Star"
-                width="370"
-                height="294"
-              />
-              <h2 class="names">Постер<span lang="en">New Orlean vs Golden Star</span></h2>
-              <p class="description">Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/seafood.jpg"
-                alt="Приложение для ресторана Seafood"
-                width="370"
-                height="294"
-              />
-              <h2 class="names">Ресторан<span lang="en">Seafood</span></h2>
-              <p class="description">Приложение</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/prime.jpg" alt="Проект Prime" width="370" height="294" />
-              <h2 class="names">Проект<span lang="en">Prime</span></h2>
-              <p class="description">Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/boxes.jpg"
-                alt="Приложение для проекта Boxes"
-                width="370"
-                height="294"
-              />
-              <h2 class="names">Проект<span lang="en">Boxes</span></h2>
-              <p class="description">Приложение</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/inspiration.jpg"
-                alt="Веб-сайт для проекта Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <h2 lang="en" class="names">Inspiration has no Borders</h2>
-              <p class="description">Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/edition.jpg"
-                alt="Издание Limited Edition"
-                width="370"
-                height="294"
-              />
-              <h2 class="names">Издание<span lang="en">Limited Edition</span></h2>
-              <p class="description">Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/lab.jpg" alt="Проект LAB" width="370" height="294" />
-              <h2 class="names">Проект<span lang="en">LAB</span></h2>
-              <p class="description">Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/business.jpg" alt="Growing Business" width="370" height="294" />
-              <h2 class="names">Приложение<span lang="en">Growing Business</span></h2>
-              <p class="description">Приложение</p></a
-            >
-          </li>
-        </ul>
+          <!-- Проекты в портфолио -->
+          <ul class="project list">
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/techno.jpg"
+                    alt="Веб-сайт для компании Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Технокряк</h2>
+                    <p class="description">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/basketball.jpg"
+                    alt="Постер для баскетбольного клуба New Orlean vs Golden Star"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="description">Дизайн</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/seafood.jpg"
+                    alt="Приложение для ресторана Seafood"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Ресторан <span lang="en">Seafood</span></h2>
+                    <p class="description">Приложение</p>
+                  </div></a
+                >
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img src="./images/prime.jpg" alt="Проект Prime" width="370" height="294" />
+                  <div class="project-content">
+                    <h2 class="names">Проект <span lang="en">Prime</span></h2>
+                    <p class="description">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/boxes.jpg"
+                    alt="Приложение для проекта Boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Проект <span lang="en">Boxes</span></h2>
+                    <p class="description">Приложение</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/inspiration.jpg"
+                    alt="Веб-сайт для проекта Inspiration has no Borders"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 lang="en" class="names">Inspiration has no Borders</h2>
+                    <p class="description">Веб-сайт</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/edition.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Издание <span lang="en">Limited Edition</span></h2>
+                    <p class="description">Дизайн</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img src="./images/lab.jpg" alt="Проект LAB" width="370" height="294" />
+                  <div class="project-content">
+                    <h2 class="names">Проект <span lang="en">LAB</span></h2>
+                    <p class="description">Маркетинг</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="item">
+              <div class="project-card">
+                <a class="link" href="">
+                  <img
+                    src="./images/business.jpg"
+                    alt="Growing Business"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="project-content">
+                    <h2 class="names">Приложение <span lang="en">Growing Business</span></h2>
+                    <p class="description">Приложение</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
